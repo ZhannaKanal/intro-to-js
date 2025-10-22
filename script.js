@@ -12,4 +12,8 @@ character = "World";
 let secondCharacter;
 secondCharacter = character;
 console.log(secondCharacter);
-//
+// 12- 13
+let profession = "teacher";
+let age;
+console.log(age);
+console.log(profession);
