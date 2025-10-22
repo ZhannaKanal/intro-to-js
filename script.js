@@ -5,6 +5,11 @@ console.log("   ###   ");
 console.log("  #####  ");
 console.log(" ####### ");
 console.log("#########");
-//
+// tasks from 6 to 11
 let character = 'Hello';
 console.log(character);
+character = "World";
+let secondCharacter;
+secondCharacter = character;
+console.log(secondCharacter);
+//
