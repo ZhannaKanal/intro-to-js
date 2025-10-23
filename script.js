@@ -17,3 +17,7 @@ let profession = "teacher";
 let age;
 console.log(age);
 console.log(profession);
+//14-20
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+console.log(rows[0]);
