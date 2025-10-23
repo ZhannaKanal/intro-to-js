@@ -35,3 +35,43 @@ console.log(rows);
 //27
 let popped = rows.pop();
 console.log(popped);
+//28
+let pushed = rows.push("freeCodeCamp")
+console.log(pushed);
+//29-32 const keyword
+character= "#";
+count = 8;
+rows = [];
+//33 Potential infinite loop detected on line 45. Tests may fail if this is not changed.
+// for ("iterator"; "condition"; "iteration"){ }
+//34-37
+for (let i = 0; i < count; i = i + 1) {
+  console.log(i);
+}
+//38
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+}
+//39-43
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + row + "\n";
+}
+
+console.log(result);
+//44
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i));
+}
+result = ""
+
+for (const row of rows) {
+  result = result + row + "\n";
+}
+
+console.log(result);
