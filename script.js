@@ -21,3 +21,17 @@ console.log(profession);
 let count = 8;
 let rows = ["Naomi", "Quincy", "CamperChan"];
 console.log(rows[0]);
+//21-22
+rows[rows.length - 1] = 10;
+console.log(rows);
+//23-24
+let cities = ["London","New York","Mumbai"];
+console.log(cities);
+cities[cities.length-1] = "Mexico City";
+console.log(cities);
+//25-26
+rows.push("freeCodeCamp");
+console.log(rows);
+//27
+let popped = rows.pop();
+console.log(popped);
