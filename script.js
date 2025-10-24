@@ -6,7 +6,7 @@ console.log("  #####  ");
 console.log(" ####### ");
 console.log("#########");
 // tasks from 6 to 11
-let character = 'Hello';
+let character = "Hello";
 console.log(character);
 character = "World";
 let secondCharacter;
@@ -25,9 +25,9 @@ console.log(rows[0]);
 rows[rows.length - 1] = 10;
 console.log(rows);
 //23-24
-let cities = ["London","New York","Mumbai"];
+let cities = ["London", "New York", "Mumbai"];
 console.log(cities);
-cities[cities.length-1] = "Mexico City";
+cities[cities.length - 1] = "Mexico City";
 console.log(cities);
 //25-26
 rows.push("freeCodeCamp");
@@ -36,10 +36,10 @@ console.log(rows);
 let popped = rows.pop();
 console.log(popped);
 //28
-let pushed = rows.push("freeCodeCamp")
+let pushed = rows.push("freeCodeCamp");
 console.log(pushed);
 //29-32 const keyword
-character= "#";
+character = "#";
 count = 8;
 rows = [];
 //33 Potential infinite loop detected on line 45. Tests may fail if this is not changed.
@@ -57,7 +57,7 @@ for (let i = 0; i < count; i = i + 1) {
   rows.push(i);
 }
 
-let result = ""
+let result = "";
 
 for (const row of rows) {
   result = result + row + "\n";
@@ -66,10 +66,10 @@ for (const row of rows) {
 console.log(result);
 //44-47
 for (let i = 0; i < count; i = i + 1) {
-//   rows.push(character.repeat(i));
-  rows.push(character.repeat(i+1));
+  //   rows.push(character.repeat(i));
+  rows.push(character.repeat(i + 1));
 }
-result = ""
+result = "";
 
 for (const row of rows) {
   result = result + row + "\n";
@@ -85,9 +85,15 @@ function addTwoNumbers(num1, num2) {
 }
 
 const sum = addTwoNumbers(5, 10);
-console.log(sum)
-
+console.log(sum);
 
 const call = padRow();
 console.log(call);
-//57
+//57-60 after return keyword won't work returns and console.logs
+function newPadRow(name) {
+  const test = "Testing";
+  console.log("This works");
+  return test;
+  return character + name;
+  console.log("This works");
+}
