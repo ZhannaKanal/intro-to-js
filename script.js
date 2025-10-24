@@ -97,7 +97,7 @@ function newPadRow(name) {
   return character + name;
   console.log("This works");
 }
-//61-
+//61-70
 function secondPadRow(rowNumber, rowCount) {
     return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
 }
