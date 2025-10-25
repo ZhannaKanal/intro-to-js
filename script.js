@@ -135,7 +135,7 @@ if ("") {
   console.log("This is the else block");
 }
 //84-91
-let continueLoop = false;
+// let continueLoop = false;
 let done = 0;
 // while (continueLoop) {
 //   done++;
@@ -144,8 +144,8 @@ let done = 0;
 //     continueLoop = false;
 //   }
 // }
-//92
-while (done !== count) {
+//92-94
+while (done <= count) {
   done++;
   rows.push(padRow(done, count));
 }
