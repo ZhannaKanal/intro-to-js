@@ -137,10 +137,15 @@ if ("") {
 //84-91
 let continueLoop = false;
 let done = 0;
-while (continueLoop) {
+// while (continueLoop) {
+//   done++;
+//   rows.push(padRow(done, count));
+//   if (done === count) {
+//     continueLoop = false;
+//   }
+// }
+//92
+while (done !== count) {
   done++;
   rows.push(padRow(done, count));
-  if (done === count) {
-    continueLoop = false;
-  }
 }
