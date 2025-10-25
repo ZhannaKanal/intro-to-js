@@ -99,7 +99,11 @@ function newPadRow(name) {
 }
 //61-70
 function secondPadRow(rowNumber, rowCount) {
-    return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+  return (
+    " ".repeat(rowCount - rowNumber) +
+    character.repeat(2 * rowNumber - 1) +
+    " ".repeat(rowCount - rowNumber)
+  );
 }
 // TODO: use a different type of loop
 /*for (let i = 1; i <= count; i++) {
@@ -115,7 +119,7 @@ if ("false") {
   console.log("Condition is true");
 }
 
-result = ""
+result = "";
 
 for (const row of rows) {
   result = result + row + "\n";
@@ -129,4 +133,14 @@ if ("") {
   console.log("5 is less than 10");
 } else {
   console.log("This is the else block");
+}
+//84-91
+let continueLoop = false;
+let done = 0;
+while (continueLoop) {
+  done++;
+  rows.push(padRow(done, count));
+  if (done === count) {
+    continueLoop = false;
+  }
 }
