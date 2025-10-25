@@ -144,8 +144,7 @@ let done = 0;
 //     continueLoop = false;
 //   }
 // }
-//92-94
-while (done <= count) {
-  done++;
-  rows.push(padRow(done, count));
+//95-97
+while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
 }
