@@ -42,6 +42,7 @@ console.log(pushed);
 character = "#";
 count = 8;
 rows = [];
+let inverted = true;
 //33 Potential infinite loop detected on line 45. Tests may fail if this is not changed.
 // for ("iterator"; "condition"; "iteration"){ }
 //34-37
@@ -158,3 +159,4 @@ for (let i = count; i > 0; i--) {
 //109 remove
 //110 uncommenting for loop on 109 line
 //111 changing push to unshift on line 110
+//112 added inverted on 45's line
