@@ -154,8 +154,10 @@ let done = 0;
 for (let i = count; i > 0; i--) {
   rows.push(padRow(i, count));
 }*/
-// 106-107
+// 106-107-108
 const numbers = [1, 2, 3];
+const shifted = numbers.shift();
+console.log(shifted);
 const unshifted = numbers.unshift(5);
-console.log(numbers);
 console.log(unshifted);
+console.log(numbers);
