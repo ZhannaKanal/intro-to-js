@@ -108,7 +108,9 @@ function secondPadRow(rowNumber, rowCount) {
 }
 // TODO: use a different type of loop
 for (let i = 1; i <= count; i++) {
-  rows.unshift(padRow(i, count));
+  if (inverted) {
+     rows.unshift(padRow(i, count));
+  }
 }
 if (true) {
   console.log("Condition is true");
@@ -160,3 +162,4 @@ for (let i = count; i > 0; i--) {
 //110 uncommenting for loop on 109 line
 //111 changing push to unshift on line 110
 //112 added inverted on 45's line
+//113-114 added if condition and the logic unshift
