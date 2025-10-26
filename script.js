@@ -106,9 +106,9 @@ function secondPadRow(rowNumber, rowCount) {
   );
 }
 // TODO: use a different type of loop
-/*for (let i = 1; i <= count; i++) {
+for (let i = 1; i <= count; i++) {
   rows.push(padRow(i, count));
-}*/
+}
 if (true) {
   console.log("Condition is true");
 }
@@ -156,3 +156,4 @@ for (let i = count; i > 0; i--) {
 }*/
 // 106-107-108
 //109 remove
+//110 uncommenting for loop on 109 line
