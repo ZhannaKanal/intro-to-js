@@ -149,7 +149,7 @@ let done = 0;
 //   rows.push(padRow(rows.length + 1, count));
 // }
 //98 task is about commenting while loop
-//99-100-101
+//99-100-101-102
 for (let i = count; i > 0; i = i - 1) {
-
+  rows.push(padRow(i, count));
 }
