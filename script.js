@@ -127,39 +127,17 @@ result = "";
 for (const row of rows) {
   result = result + row + "\n";
 }
-
 console.log(result);
 //82-83
-if ("") {
-  console.log("Condition is true");
-} else if (5 < 10) {
-  console.log("5 is less than 10");
-} else {
-  console.log("This is the else block");
-}
 //84-91
-// let continueLoop = false;
-let done = 0;
-// while (continueLoop) {
-//   done++;
-//   rows.push(padRow(done, count));
-//   if (done === count) {
-//     continueLoop = false;
-//   }
-// }
 //95-97
-// while (rows.length < count) {
-//   rows.push(padRow(rows.length + 1, count));
-// }
 //98 task is about commenting while loop
 //99-100-101-102-103-104
-/* //105
-for (let i = count; i > 0; i--) {
-  rows.push(padRow(i, count));
-}*/
+//105
 // 106-107-108
 //109 remove
 //110 uncommenting for loop on 109 line
 //111 changing push to unshift on line 110
 //112 added inverted on 45's line
 //113-114 added if condition and the logic unshift
+//115-117 adding else statement and deleting commented loops
