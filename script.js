@@ -145,6 +145,7 @@ let done = 0;
 //   }
 // }
 //95-97
-while (rows.length < count) {
-  rows.push(padRow(rows.length + 1, count));
-}
+// while (rows.length < count) {
+//   rows.push(padRow(rows.length + 1, count));
+// }
+//98 task is about commenting while loop
